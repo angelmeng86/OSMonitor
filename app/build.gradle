@@ -3,20 +3,12 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('debug.keystore')
-            storePassword "android"
-            keyAlias "androiddebugkey"
-            keyPassword "android"
-        }
-    }
     compileSdkVersion 23
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "com.eolwral.osmonitor"
-        minSdkVersion 9
-        targetSdkVersion 20
+        minSdkVersion 21
+        targetSdkVersion 21
         maxSdkVersion 23
         versionCode 90
         versionName "3.5.0.7"

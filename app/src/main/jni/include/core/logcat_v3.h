@@ -7,7 +7,7 @@
 #define LOGCAT_H_
 
 #define HAVE_IOCTL
-
+#include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>

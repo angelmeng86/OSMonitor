@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "android/event_tag_map.h"
+#include "android/event_tag_map_v3.h"
 
 #include <stdlib.h>
 #include <stdio.h>

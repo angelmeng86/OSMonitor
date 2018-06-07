@@ -9,7 +9,7 @@
 #define OFFSETOF(type, field)    ((unsigned long) &(((type *) 0)->field))
 
 #define HAVE_IOCTL
-
+#include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -21,7 +21,7 @@
 
 #include <android/log.h>
 
-#include <android/event_tag_map.h>
+#include <android/event_tag_map_v3.h>
 
 #include "logger.h" // copy it from Android source code
 #include "base.h"

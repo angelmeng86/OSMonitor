@@ -6,16 +6,18 @@
 #ifndef NETWORK_H_
 #define NETWORK_H_
 
-#include <linux/if.h>
-#include <linux/sockios.h>
-#include <linux/param.h>
-#include <linux/wireless.h>
+#include <unistd.h>
+
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <linux/if.h>
+#include <linux/sockios.h>
+#include <linux/param.h>
+#include <linux/wireless.h>
 
 #include <tuple>
 
